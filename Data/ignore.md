@@ -11,8 +11,8 @@ train.csv: A full training dataset with the following attributes:
 - text: the text of the article; could be incomplete
 - label: a label that marks the article as potentially unreliable
 Definition of the target
-- 1: unreliable
-- 0: reliable
+  - 1: unreliable
+  - 0: reliable
 
 Since we do not have the true test set labels, we will be performing 
 all model evaluations on the training set and not the test set.
