@@ -1,33 +1,31 @@
-##############################################################
-# BIG DATA | TERM PROJECT | 
-# Authors : Ankita BHATTACHARYA, Abdourahmane DIALLO, 
-#           Sungyun HWANG, Amaratou MAHAMADOU
-# Date created : 19.04.2021
-##############################################################
+# BIG DATA | TERM PROJECT | FAKE NEWS CLASSIFICATION
+## Authors : Ankita BHATTACHARYA, Abdourahmane DIALLO, 
+##           Sungyun HWANG, Amaratou MAHAMADOU
+#### Date created : 19.04.2021
 
 
 This is a ReadME file containing an exhaustive list of contents,
 notebooks and instructions to execute the code provided. 
 
-1. Dataset and data description
+### 1. Dataset and data description
 The dataset is available at 
 https://www.kaggle.com/c/fake-news/data
 
 Data description
 train.csv: A full training dataset with the following attributes:
 
-id: unique id for a news article
-title: the title of a news article
-author: author of the news article
-text: the text of the article; could be incomplete
-label: a label that marks the article as potentially unreliable
-1: unreliable
-0: reliable
+- id: unique id for a news article
+- title: the title of a news article
+- author: author of the news article
+- text: the text of the article; could be incomplete
+- label: a label that marks the article as potentially unreliable
+	- 1: unreliable
+	- 0: reliable
 
 Since we do not have the true test set labels, we will be performing 
 all model evaluations on the training set and not the test set.
 
-2. Instructions to run the notebooks
+### 2. Instructions to run the notebooks
 The data train.csv and test.csv must be saved in the same directory as the 
 notebooks. For notebooks on databricks, you will have to upload the two files 
 train.csv and test.csv onto Databricks. 
@@ -35,7 +33,7 @@ For the last notebook on Google Colab, you will have to upload
 the file train.csv (and test.csv if you please) onto "session storage" as 
 mounting to drive was not working. 
 
-3. Notebooks
+### 3. Notebooks
 Notebook 03 : Exploratory Analysis
 
 I.Loading the pre-requisites
@@ -93,11 +91,10 @@ IV. Creating the RNN model
 V. Checking for overfitting !
 	V.A. Correcting for overfitting
 	V.B. Better results !
-	
-	
-For bugs or issues contact  ankita.bhattacharya@ut-capitole.fr
-
 
 VI. Hyper-parameter tuning : Using Keras tuner
-Learning rate
-Units of the dense layer
+	VI.A. Learning rate
+	VI.B. Units of the dense layer
+
+For bugs or issues contact  ankita.bhattacharya@ut-capitole.fr
+
