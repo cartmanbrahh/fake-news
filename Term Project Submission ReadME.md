@@ -93,7 +93,7 @@ Fake News Detection | Tensorflow | Google Colab
 	-	V.A. Correcting for overfitting
 	- 	V.B. Better results !
 
--VI. Hyper-parameter tuning : Using Keras tuner
+- VI. Hyper-parameter tuning : Using Keras tuner
 	-	VI.A. Learning rate
 	-	VI.B. Units of the dense layer
 
