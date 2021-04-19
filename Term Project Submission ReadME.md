@@ -61,8 +61,8 @@ Notebook 05 : MLlib, training ML models for fake news prediction
 - III. Text Preprocessing
 - IV. Training the classification models
 	- 	IV.A. Logistic Regression
-			-		IV.A.1. Obtaining errors and other evaluation metrics on our model
-			-		IV.A.2. Tuning hyper parameters
+			IV.A.1. Obtaining errors and other evaluation metrics on our model
+			IV.A.2. Tuning hyper parameters
 	-	IV.B. Random Forest Classifier
 
 
@@ -73,9 +73,9 @@ Notebook 06 : Pipelines
 - III. Defining the pipeline
 	-	A. Feature extraction
 	-	B. ML model
-		-			III.B.1. Logistic Regression
-			-				B.1.a. Hyper parameter tuning
-		-			III.B.2. Naive Bayes Regression
+			III.B.1. Logistic Regression
+				B.1.a. Hyper parameter tuning
+			III.B.2. Naive Bayes Regression
 		
 		
 Notebook 07 : Deep Learning Model : RNN (using LSTM)
