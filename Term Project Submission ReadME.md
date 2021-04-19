@@ -61,8 +61,8 @@ Notebook 05 : MLlib, training ML models for fake news prediction
 - III. Text Preprocessing
 - IV. Training the classification models
 	- 	IV.A. Logistic Regression
-			- IV.A.1. Obtaining errors and other evaluation metrics on our model
-			- IV.A.2. Tuning hyper parameters
+		- IV.A.1. Obtaining errors and other evaluation metrics on our model
+		- IV.A.2. Tuning hyper parameters
 	-	IV.B. Random Forest Classifier
 
 
